@@ -1,0 +1,15 @@
+uri,type,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+colt:bekistingsmaterialen,skos:Collection,bekistingsmaterialen,,,Collectie van bekistingsmaterialen.,,,,,,,,,,,,,cs,bekistingsmateriaal,,,,,,
+ct:9,skos:Concept,9,colt:bekistingsmaterialen,,beton,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:7,skos:Concept,7,colt:bekistingsmaterialen,,geen filterbuis aanwezig,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:3,skos:Concept,3,colt:bekistingsmaterialen,,gegalvaniseerd staal,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:5,skos:Concept,5,colt:bekistingsmaterialen,,glasvezel,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:11,skos:Concept,11,colt:bekistingsmaterialen,,HDPE,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:6,skos:Concept,6,colt:bekistingsmaterialen,,"inox, zonder verdere precisering",,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:10,skos:Concept,10,colt:bekistingsmaterialen,,metselwerk,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:0,skos:Concept,0,colt:bekistingsmaterialen,,onbekend,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:8,skos:Concept,8,colt:bekistingsmaterialen,,polyethyleen,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:1,skos:Concept,1,colt:bekistingsmaterialen,,PVC,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:2,skos:Concept,2,colt:bekistingsmaterialen,,roestvrij staal,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:4,skos:Concept,4,colt:bekistingsmaterialen,,"staal, zonder verdere precisering",,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
+ct:12,skos:Concept,12,colt:bekistingsmaterialen,,straatpot,,,,,,,,,,,,,cs:bekistingsmateriaal,,,,,,,cs:bekistingsmateriaal
