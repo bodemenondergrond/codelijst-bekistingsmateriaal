@@ -1,0 +1,310 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:8",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "polyethyleen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "8",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:bekistingsmateriaal",
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:5"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:6"
+                },
+                {
+                    "@id": "ct:8"
+                },
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:9"
+                },
+                {
+                    "@id": "ct:10"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:0"
+                },
+                {
+                    "@id": "ct:7"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:11"
+                },
+                {
+                    "@id": "ct:12"
+                }
+            ]
+        },
+        {
+            "@id": "ct:3",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "gegalvaniseerd staal"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "3",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:bekistingsmaterialen",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van bekistingsmaterialen."
+            },
+            "skos:member": [
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:9"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:11"
+                },
+                {
+                    "@id": "ct:10"
+                },
+                {
+                    "@id": "ct:6"
+                },
+                {
+                    "@id": "ct:12"
+                },
+                {
+                    "@id": "ct:0"
+                },
+                {
+                    "@id": "ct:8"
+                },
+                {
+                    "@id": "ct:5"
+                },
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:7"
+                }
+            ],
+            "skos:inScheme": {
+                "@id": "file:///tmp/RtmpndTYLu/cs"
+            },
+            "@type": "skos:Collection",
+            "dc:identifier": "bekistingsmaterialen",
+            "skos:mappingRelation": {
+                "@id": "file:///tmp/RtmpndTYLu/bekistingsmateriaal"
+            }
+        },
+        {
+            "@id": "ct:4",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "staal, zonder verdere precisering"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "4",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:1",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "PVC"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "1",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:9",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "beton"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "9",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:11",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "HDPE"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "11",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:10",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "metselwerk"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "10",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:6",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "inox, zonder verdere precisering"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "6",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:12",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "straatpot"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "12",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:0",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "onbekend"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "0",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:5",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "glasvezel"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "5",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:2",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "roestvrij staal"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "2",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:7",
+            "skos:topConceptOf": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "geen filterbuis aanwezig"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bekistingsmateriaal"
+            },
+            "dc:identifier": "7",
+            "@type": "skos:Concept"
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/bekistingsmaterialen/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

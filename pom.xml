@@ -8,11 +8,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-bekistingsmaterialen</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <artifactId>codelijst-bekistingsmaterial</artifactId> <!-- e.g. codelijst-testrepo -->
+  <version>0.1.0-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-bekistingsmaterialen</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-bekistingsmaterial</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>

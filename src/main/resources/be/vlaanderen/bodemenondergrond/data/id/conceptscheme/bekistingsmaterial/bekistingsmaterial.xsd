@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/4"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/3"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/2"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/1"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/0"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/9"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/8"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/7"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/6"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/5"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/11"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/10"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmaterialen/12"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
