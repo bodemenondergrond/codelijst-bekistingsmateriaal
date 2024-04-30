@@ -1,8 +1,8 @@
-# codelijst-bekistingsmaterialen
+# codelijst-bekistingsmateriaal
 
 ## Samenvatting
 
-De codelijst 'bekistingsmaterialen' bevat eenduidige benamingen van ...
+De codelijst 'bekistingsmateriaal' bevat eenduidige benamingen van ...
 
 
 ## Projectinhoud
