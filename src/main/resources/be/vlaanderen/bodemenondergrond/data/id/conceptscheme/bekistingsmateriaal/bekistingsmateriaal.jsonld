@@ -392,66 +392,66 @@
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.bekistingsmateriaal.bekistingsmaterialen",
             "inScheme": "conceptscheme:bekistingsmateriaal",
             "member": [
-                "concept:0",
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4"
+                "concept:kunststofPVC",
+                "concept:kunststofander",
+                "concept:metaal",
+                "concept:natuurlijk",
+                "concept:steen"
             ],
             "notation": "collectie_bekistingsmaterialen",
             "prefLabel": "Collectie van bekistingsmaterialen."
         },
         {
-            "id": "concept:0",
+            "id": "concept:kunststofPVC",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.0",
-            "definition": "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout.",
-            "inScheme": "conceptscheme:bekistingsmateriaal",
-            "notation": "0",
-            "note": "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout.",
-            "prefLabel": "natuurlijke materialen (biodegradeerbaar, hout, …)",
-            "topConceptOf": "conceptscheme:bekistingsmateriaal"
-        },
-        {
-            "id": "concept:1",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.1",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.kunststofPVC",
             "definition": "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit PVC.",
             "inScheme": "conceptscheme:bekistingsmateriaal",
-            "notation": "1",
+            "notation": "kunststofPVC",
             "note": "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit PVC.",
             "prefLabel": "kunststof: PVC",
             "topConceptOf": "conceptscheme:bekistingsmateriaal"
         },
         {
-            "id": "concept:2",
+            "id": "concept:kunststofander",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.2",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.kunststofander",
             "definition": "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit kunststof anders dan PVC zoals polyethylene (PE, HDPE, LDPE, …).",
             "inScheme": "conceptscheme:bekistingsmateriaal",
-            "notation": "2",
+            "notation": "kunststofander",
             "note": "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit kunststof anders dan PVC zoals polyethylene (PE, HDPE, LDPE, …).",
             "prefLabel": "kunststof: andere (PE, HDPE, LDPE, …)",
             "topConceptOf": "conceptscheme:bekistingsmateriaal"
         },
         {
-            "id": "concept:3",
+            "id": "concept:metaal",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.3",
             "definition": "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit metaal zoals inox of staal.",
             "inScheme": "conceptscheme:bekistingsmateriaal",
-            "notation": "3",
+            "notation": "metaal",
             "note": "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit metaal zoals inox of staal.",
             "prefLabel": "metaal: inox, staal, roestvrij staal, gegalvaniseerd staal, …",
             "topConceptOf": "conceptscheme:bekistingsmateriaal"
         },
         {
-            "id": "concept:4",
+            "id": "concept:natuurlijk",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.4",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.0",
+            "definition": "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout.",
+            "inScheme": "conceptscheme:bekistingsmateriaal",
+            "notation": "natuurlijk",
+            "note": "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout.",
+            "prefLabel": "natuurlijke materialen (biodegradeerbaar, hout, …)",
+            "topConceptOf": "conceptscheme:bekistingsmateriaal"
+        },
+        {
+            "id": "concept:steen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.steen",
             "definition": "Het boorgat is afgewerkt met bekisting uit beton of metselwerk.",
             "inScheme": "conceptscheme:bekistingsmateriaal",
-            "notation": "4",
+            "notation": "steen",
             "note": "Het boorgat is afgewerkt met bekisting uit beton of metselwerk.",
             "prefLabel": "beton/metselwerk",
             "topConceptOf": "conceptscheme:bekistingsmateriaal"
@@ -461,11 +461,11 @@
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bekistingsmateriaal",
             "hasTopConcept": [
-                "concept:0",
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4"
+                "concept:kunststofPVC",
+                "concept:kunststofander",
+                "concept:metaal",
+                "concept:natuurlijk",
+                "concept:steen"
             ],
             "notation": "bekistingsmaterialen",
             "prefLabel": "Conceptschema van bekistingsmaterialen."

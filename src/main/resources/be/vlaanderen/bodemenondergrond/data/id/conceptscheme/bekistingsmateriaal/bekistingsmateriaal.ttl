@@ -57,51 +57,51 @@
 collectie:bekistingsmaterialen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.bekistingsmateriaal.bekistingsmaterialen";
     a skos:Collection;
     skos:inScheme conceptscheme:bekistingsmateriaal;
-    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/4>;
+    skos:member concept:kunststofPVC, concept:kunststofander, concept:metaal, concept:natuurlijk, concept:steen;
     skos:notation "collectie_bekistingsmaterialen";
     skos:prefLabel "Collectie van bekistingsmaterialen."@nl.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/0> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.0";
-    a skos:Concept;
-    skos:definition "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout."@nl;
-    skos:inScheme conceptscheme:bekistingsmateriaal;
-    skos:notation "0";
-    skos:note "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout."@nl;
-    skos:prefLabel "natuurlijke materialen (biodegradeerbaar, hout, …)"@nl;
-    skos:topConceptOf conceptscheme:bekistingsmateriaal.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.1";
+concept:kunststofPVC dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.kunststofPVC";
     a skos:Concept;
     skos:definition "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit PVC."@nl;
     skos:inScheme conceptscheme:bekistingsmateriaal;
-    skos:notation "1";
+    skos:notation "kunststofPVC";
     skos:note "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit PVC."@nl;
     skos:prefLabel "kunststof: PVC"@nl;
     skos:topConceptOf conceptscheme:bekistingsmateriaal.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/2> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.2";
+concept:kunststofander dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.kunststofander";
     a skos:Concept;
     skos:definition "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit kunststof anders dan PVC zoals polyethylene (PE, HDPE, LDPE, …)."@nl;
     skos:inScheme conceptscheme:bekistingsmateriaal;
-    skos:notation "2";
+    skos:notation "kunststofander";
     skos:note "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit kunststof anders dan PVC zoals polyethylene (PE, HDPE, LDPE, …)."@nl;
     skos:prefLabel "kunststof: andere (PE, HDPE, LDPE, …)"@nl;
     skos:topConceptOf conceptscheme:bekistingsmateriaal.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/3> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.3";
+concept:metaal dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.3";
     a skos:Concept;
     skos:definition "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit metaal zoals inox of staal."@nl;
     skos:inScheme conceptscheme:bekistingsmateriaal;
-    skos:notation "3";
+    skos:notation "metaal";
     skos:note "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit metaal zoals inox of staal."@nl;
     skos:prefLabel "metaal: inox, staal, roestvrij staal, gegalvaniseerd staal, …"@nl;
     skos:topConceptOf conceptscheme:bekistingsmateriaal.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/4> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.4";
+concept:natuurlijk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.0";
+    a skos:Concept;
+    skos:definition "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout."@nl;
+    skos:inScheme conceptscheme:bekistingsmateriaal;
+    skos:notation "natuurlijk";
+    skos:note "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout."@nl;
+    skos:prefLabel "natuurlijke materialen (biodegradeerbaar, hout, …)"@nl;
+    skos:topConceptOf conceptscheme:bekistingsmateriaal.
+concept:steen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.steen";
     a skos:Concept;
     skos:definition "Het boorgat is afgewerkt met bekisting uit beton of metselwerk."@nl;
     skos:inScheme conceptscheme:bekistingsmateriaal;
-    skos:notation "4";
+    skos:notation "steen";
     skos:note "Het boorgat is afgewerkt met bekisting uit beton of metselwerk."@nl;
     skos:prefLabel "beton/metselwerk"@nl;
     skos:topConceptOf conceptscheme:bekistingsmateriaal.
 conceptscheme:bekistingsmateriaal dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bekistingsmateriaal";
     a skos:ConceptScheme;
-    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/4>;
+    skos:hasTopConcept concept:kunststofPVC, concept:kunststofander, concept:metaal, concept:natuurlijk, concept:steen;
     skos:notation "bekistingsmaterialen";
     skos:prefLabel "Conceptschema van bekistingsmaterialen."@nl.
