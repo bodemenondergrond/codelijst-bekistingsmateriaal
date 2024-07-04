@@ -2,19 +2,11 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-bekistingsmateriaal">
   <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bekistingsmateriaal">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/0" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/1" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/10" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/11" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/12" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/2" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/3" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/4" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/5" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/6" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/7" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/8" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/9" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/kunststofPVC" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/kunststofander" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/metaal" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/natuurlijk" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bekistingsmateriaal/steen" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
