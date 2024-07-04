@@ -16,5 +16,7 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-codelijst-bekistingsmaterial.iml
+codelijst-bekistingsmateriaal.iml
 node_modules/
+src/.env
+src/utils/setenv.js
