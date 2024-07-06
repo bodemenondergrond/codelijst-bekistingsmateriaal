@@ -3,9 +3,9 @@
 @prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix assettype: <http://purl.org/adms/assettype/>.
-@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
 @prefix country: <http://publications.europa.eu/resource/authority/country/>.
-@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datasets: <https://datasets.bodemenondergrond.vlaanderen.be/>.
 @prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
 @prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
 @prefix dbo: <http://dbpedia.org/ontology/>.
@@ -20,9 +20,9 @@
 @prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
 @prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
 @prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
-@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
-@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
-@prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
+@prefix metadata: <https://data.bodemenondergrond.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
 @prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
 @prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
 @prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
