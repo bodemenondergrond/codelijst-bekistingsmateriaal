@@ -76,7 +76,7 @@ concept:kunststofander dc:identifier "be.vlaanderen.bodemenondergrond.data.id.co
     skos:note "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit kunststof anders dan PVC zoals polyethylene (PE, HDPE, LDPE, …)."@nl;
     skos:prefLabel "kunststof: andere (PE, HDPE, LDPE, …)"@nl;
     skos:topConceptOf conceptscheme:bekistingsmateriaal.
-concept:metaal dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.3";
+concept:metaal dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.metaal";
     a skos:Concept;
     skos:definition "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit metaal zoals inox of staal."@nl;
     skos:inScheme conceptscheme:bekistingsmateriaal;
@@ -84,7 +84,7 @@ concept:metaal dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.be
     skos:note "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit metaal zoals inox of staal."@nl;
     skos:prefLabel "metaal: inox, staal, roestvrij staal, gegalvaniseerd staal, …"@nl;
     skos:topConceptOf conceptscheme:bekistingsmateriaal.
-concept:natuurlijk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.0";
+concept:natuurlijk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.natuurlijk";
     a skos:Concept;
     skos:definition "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout."@nl;
     skos:inScheme conceptscheme:bekistingsmateriaal;

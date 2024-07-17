@@ -426,7 +426,7 @@
         {
             "id": "concept:metaal",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.3",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.metaal",
             "definition": "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit metaal zoals inox of staal.",
             "inScheme": "conceptscheme:bekistingsmateriaal",
             "notation": "metaal",
@@ -437,7 +437,7 @@
         {
             "id": "concept:natuurlijk",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.0",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.natuurlijk",
             "definition": "Het boorgat is afgewerkt met natuurlijke materialen zoals bijvoorbeeld biologisch afbreekbare stoffen, hout.",
             "inScheme": "conceptscheme:bekistingsmateriaal",
             "notation": "natuurlijk",
