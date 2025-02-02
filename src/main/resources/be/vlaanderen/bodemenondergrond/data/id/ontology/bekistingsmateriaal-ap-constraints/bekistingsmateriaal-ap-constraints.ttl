@@ -69,7 +69,7 @@ ons:collection
     sh:name          "verzameling"@en ;
     sh:description   "Verzamelingen bundelen matrices met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@en ;
     rdfs:isDefinedBy beo_ont:bekistingsmateriaal, beo_voc:bekistingsmateriaal ;
-    sh:property      omg_ps:prefLabel, omg_ps:collection_member, omg_ps:dc_identifier, omg_ps:notation,
+    sh:property      omg_ps:prefLabel, omg_ps:collection_member, omg_ps:dc_identifier, omg_ps:notation,omg_ps:definition,omg_ps:note,
                      omg_ps:inScheme, omg_ps:rdf_type;
     sh:closed true ;
     sh:targetClass   skos:Collection .

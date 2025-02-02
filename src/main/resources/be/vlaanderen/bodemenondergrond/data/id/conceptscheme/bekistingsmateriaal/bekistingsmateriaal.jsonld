@@ -335,7 +335,7 @@
         "assettype": "http://purl.org/adms/assettype/",
         "conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
         "country": "http://publications.europa.eu/resource/authority/country/",
-        "datasets": "https://datasets.bodemenondergrond.vlaanderen.be/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
         "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
         "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
         "dbo": "http://dbpedia.org/ontology/",
@@ -350,7 +350,7 @@
         "frequency": "http://publications.europa.eu/resource/authority/frequency/",
         "gemet": "http://www.eionet.europa.eu/gemet/concept/",
         "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
-        "metadata": "https://data.bodemenondergrond.vlaanderen.be/ns/metadata#",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
         "omg_catalog": "https://data.bodemenondergrond.vlaanderen.be/id/catalog/",
         "omg_catalog_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/",
         "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
@@ -390,6 +390,7 @@
             "id": "collectie:bekistingsmaterialen",
             "type": "skos:Collection",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.bekistingsmateriaal.bekistingsmaterialen",
+            "definition": "Lijst van materialen die gebruikt worden voor de afwerking van het boorgat of materialen die na de uitvoering van de boring in het boorgat achterblijven.",
             "inScheme": "conceptscheme:bekistingsmateriaal",
             "member": [
                 "concept:kunststofPVC",
@@ -399,7 +400,8 @@
                 "concept:steen"
             ],
             "notation": "collectie_bekistingsmaterialen",
-            "prefLabel": "Collectie van bekistingsmaterialen."
+            "note": "Lijst van materialen die gebruikt worden voor de afwerking van het boorgat of materialen die na de uitvoering van de boring in het boorgat achterblijven.",
+            "prefLabel": "Collectie bekistingsmaterialen."
         },
         {
             "id": "concept:kunststofPVC",
@@ -460,6 +462,7 @@
             "id": "conceptscheme:bekistingsmateriaal",
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bekistingsmateriaal",
+            "definition": "Het materiaal dat in het boorgat achterblijft als al dan niet verloren bekisting.",
             "hasTopConcept": [
                 "concept:kunststofPVC",
                 "concept:kunststofander",
@@ -468,7 +471,8 @@
                 "concept:steen"
             ],
             "notation": "bekistingsmaterialen",
-            "prefLabel": "Conceptschema van bekistingsmaterialen."
+            "note": "Het materiaal dat in het boorgat achterblijft als al dan niet verloren bekisting.",
+            "prefLabel": "Conceptschema bekistingsmaterialen."
         }
     ]
 }

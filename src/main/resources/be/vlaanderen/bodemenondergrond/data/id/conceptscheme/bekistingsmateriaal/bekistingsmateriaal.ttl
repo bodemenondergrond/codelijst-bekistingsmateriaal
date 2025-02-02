@@ -5,7 +5,7 @@
 @prefix assettype: <http://purl.org/adms/assettype/>.
 @prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
 @prefix country: <http://publications.europa.eu/resource/authority/country/>.
-@prefix datasets: <https://datasets.bodemenondergrond.vlaanderen.be/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
 @prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
 @prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
 @prefix dbo: <http://dbpedia.org/ontology/>.
@@ -20,7 +20,7 @@
 @prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
 @prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
 @prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
-@prefix metadata: <https://data.bodemenondergrond.vlaanderen.be/ns/metadata#>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
 @prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
 @prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
 @prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
@@ -56,10 +56,12 @@
 
 collectie:bekistingsmaterialen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.bekistingsmateriaal.bekistingsmaterialen";
     a skos:Collection;
+    skos:definition "Lijst van materialen die gebruikt worden voor de afwerking van het boorgat of materialen die na de uitvoering van de boring in het boorgat achterblijven."@nl;
     skos:inScheme conceptscheme:bekistingsmateriaal;
     skos:member concept:kunststofPVC, concept:kunststofander, concept:metaal, concept:natuurlijk, concept:steen;
     skos:notation "collectie_bekistingsmaterialen";
-    skos:prefLabel "Collectie van bekistingsmaterialen."@nl.
+    skos:note "Lijst van materialen die gebruikt worden voor de afwerking van het boorgat of materialen die na de uitvoering van de boring in het boorgat achterblijven."@nl;
+    skos:prefLabel "Collectie bekistingsmaterialen."@nl.
 concept:kunststofPVC dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bekistingsmateriaal.kunststofPVC";
     a skos:Concept;
     skos:definition "De materialen die in het boorgat achterblijven als al dan niet verloren bekisting of buizen bestaan uit PVC."@nl;
@@ -102,6 +104,8 @@ concept:steen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bek
     skos:topConceptOf conceptscheme:bekistingsmateriaal.
 conceptscheme:bekistingsmateriaal dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bekistingsmateriaal";
     a skos:ConceptScheme;
+    skos:definition "Het materiaal dat in het boorgat achterblijft als al dan niet verloren bekisting."@nl;
     skos:hasTopConcept concept:kunststofPVC, concept:kunststofander, concept:metaal, concept:natuurlijk, concept:steen;
     skos:notation "bekistingsmaterialen";
-    skos:prefLabel "Conceptschema van bekistingsmaterialen."@nl.
+    skos:note "Het materiaal dat in het boorgat achterblijft als al dan niet verloren bekisting."@nl;
+    skos:prefLabel "Conceptschema bekistingsmaterialen."@nl.
