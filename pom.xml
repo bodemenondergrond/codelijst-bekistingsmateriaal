@@ -7,17 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< Updated upstream
-  <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-bekistingsmateriaal</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.2.7-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
-  <packaging>jar</packaging>
-=======
-    <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId><!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-    <artifactId>codelijst-bekistingsmateriaal</artifactId><!-- e.g. codelijst-testrepo -->
-    <version>0.2.5-SNAPSHOT</version><!-- 0.1.0-SNAPSHOT -->
+    <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId>
+    <artifactId>codelijst-bekistingsmateriaal</artifactId>
+    <version>0.2.7-SNAPSHOT</version>
     <packaging>jar</packaging>
->>>>>>> Stashed changes
 
     <name>codelijst-bekistingsmateriaal</name>
 
